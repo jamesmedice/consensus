@@ -1,0 +1,67 @@
+name: consent
+description: "An irondome project 4 males" 
+ 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  async: ^2.8.2
+  auto_size_text: ^3.0.0
+  camera: 0.10.5+9
+  encrypt: 5.0.3
+  flutter_email_sender: ^8.0.0
+  flutter_secure_storage: ^9.0.0
+  flutter_keyboard_visibility: ^6.0.0
+  get_it: ^7.2.0
+  googleapis_auth: ^1.2.0
+  gcloud: ^0.8.5
+  google_sign_in: ^6.2.1
+  qr_flutter: ^4.1.0
+  logger: ^2.0.2+1
+  mobile_scanner: 5.2.3
+  shared_preferences: ^2.2.2
+  tflite_flutter: ^0.10.4
+ 
+  #FIREBASE
+  firebase_auth: ^5.1.4
+  firebase_core: ^3.3.0
+
+  #LOCALIZATION
+  flutter_localizations:
+    sdk: flutter
+  flutter_translate: ^4.0.4
+
+  #GRAPHICS
+  flutter_svg: ^2.0.9
+
+  #ARCHITECTURE
+  provider: ^6.0.0
+
+  #PERMISSION
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/icon/icon.png"
+  image_path_android: "assets/icon/icon.png" 
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/i18n/
+    - assets/svg/
+    - assets/json/
+    - assets/icon/
+    - assets/images/
